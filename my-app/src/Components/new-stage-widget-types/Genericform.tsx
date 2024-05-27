@@ -1,6 +1,6 @@
 import TextField from "@mui/material/TextField";
 import Box from "@mui/material/Box";
-import CreacteLable from "./CreateLable/CreateLable";
+import CreateLable from "./CreateLable/CreateLable";
 
 function Genericform() {
   return (
@@ -27,7 +27,7 @@ function Genericform() {
           variant="standard"
         />
       </Box>
-      <CreacteLable />
+      <CreateLable />
     </Box>
   );
 }
